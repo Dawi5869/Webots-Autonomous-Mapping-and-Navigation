@@ -1,1 +1,1 @@
-# Webots-Autonomous-Mapping---Navigation
+# Webots Autonomous Mapping & Navigation
