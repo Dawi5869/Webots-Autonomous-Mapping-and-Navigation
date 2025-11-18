@@ -19,8 +19,8 @@ The system drives the robot around the table **twice in under two minutes**, log
 
 - **🧭 Waypoint Tracking & Trajectory Control**  
   - Implemented a **GPS + compass-based controller** that computes:
-    - \( \rho \): distance to the next waypoint  
-    - \( \alpha \): heading error between robot orientation and desired direction
+    - \( $\rho$ \): distance to the next waypoint  
+    - \( $\alpha$ \): heading error between robot orientation and desired direction
   - Designed a **proportional controller** on both distance and heading, with speed saturation at the robot’s max wheel speed (±6.28 rad/s).
   - Created a **bidirectional waypoint path** so the robot travels clockwise around the table, then reverses the waypoint list to return counter-clockwise.
 
@@ -69,7 +69,7 @@ The system drives the robot around the table **twice in under two minutes**, log
 
 ## 🧠 Engineering Summary
 
-> This project demonstrates an end-to-end autonomous navigation pipeline in simulation: from **waypoint tracking** and **sensor-based mapping** to **configuration space generation**. The TiagoLite robot uses GPS and compass data to follow a closed-loop trajectory, probabilistically fuses LIDAR measurements into a 300×300 grid, and then inflates obstacles via a 34×34 kernel to compute a safe C-Space. The final system successfully executes two full laps around the table in under two minutes and produces a binary C-Space with a one-pixel-wide navigable corridor—suitable as a foundation for future path planning and GNC extensions.
+> This project demonstrates an end-to-end autonomous navigation pipeline in simulation: from **waypoint tracking** and **sensor-based mapping** to **configuration space generation**. The TiagoLite robot uses GPS and compass data to follow a closed-loop trajectory, probabilistically fuses LIDAR measurements into a 300×300 grid, and then inflates obstacles via a 34×34 kernel to compute a safe C-Space. The final system successfully executes two full laps around the table in under two minutes and produces a binary C-Space with a one-pixel-wide navigable corridor, suitable as a foundation for future path planning and GNC extensions.
 
 ---
 
