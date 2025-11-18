@@ -1,7 +1,7 @@
 # 🤖 TiagoLite Autonomous Mapping & Navigation – Kitchen C-Space Project
 
 <p align="center">
-  <img src="tiagolite-cspace-header.png" alt="TiagoLite Mapping and C-Space Overview" width="850"/>
+  <img src="Webots_mapping_image.png" alt="TiagoLite Mapping and C-Space Overview" width="850"/>
 </p>
 
 ## ✨ Overview
