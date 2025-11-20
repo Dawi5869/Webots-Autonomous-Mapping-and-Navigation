@@ -11,7 +11,7 @@ This project implements **autonomous mapping and navigation** for a TiagoLite mo
 - Builds a **probabilistic occupancy grid map** using LIDAR data.
 - Uses **convolution-based obstacle growth** to generate a **configuration space (C-Space)** that maximizes clearance from obstacles while preserving a narrow passage to the kitchen work area.
 
-The system drives the robot around the table **twice in under two minutes**, logs its trajectory, constructs a noise-reduced occupancy map, and computes a binary C-Space with a **one-pixel-wide path** through tight areas—matching the full-credit requirement for the assignment.
+The system drives the robot around the table **twice in under two minutes**, logs its trajectory, constructs a noise-reduced occupancy map, and computes a binary C-Space with a **one-pixel-wide path** through tight areas, matching the full-credit requirement for the assignment.
 
 ---
 
